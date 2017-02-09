@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+       <h1>
+         Learning Loops
+       </h1>
+    <script>
+    var count =1;
+    //count from 1 to 10
+    //console.log(i);
+    // start          stop        how do you get there
+    //for(var i = 1; i <= 10; i+= 1){
+    //  console.log(i);
+    //}
+
+      //console.log('i',i)
+  //count from 3 to 47 using a for loop
+    // var count =1;
+    // for(var i =3; i <=47; i+= 1){
+       //console.log(i);
+     //}
+      //let's print every character of a word
+      //var word='concatenation';
+      //for(var p = 0; p <word.length; p +=1){
+      //  var char =word[p];
+      //  console.log(char);
+      //}
+      //What about other collections?
+      var chars = ['c', 'a', 'r', 'r', 'o', 't'];
+      console.log(chars);
+      //print each element
+      //standard way
+
+      for(var i=0; i< chars.length; i += 1){
+        var arrElement =chars[i];
+        console.log(arrElement);
+      }
+
+      //forEach
+      chars.forEach(function(arrElement, index, arr){
+      console.log(arrElement, index, arr);
+    });
+
+
+      // var anotherWord = 'antidisestablishmentarianism';
+      // for(var n = 0; n <anotherWord.length; n +=1){
+      //   var char =anotherWord[n];
+      //   console.log(char);
+      // }
+
+     </script>
+  </body>
+</html>
